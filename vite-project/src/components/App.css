@@ -1,0 +1,40 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .dark-mode body {
+    background-color: #333333;
+    color: #ffffff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .dark-mode header {
+    background-color: #444444;
+  }
+  
+  .toggle-darkmode label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .language-switch button {
+    background: none;
+    border: 1px solid #333;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: inherit;
+  }
+  
+  .dark-mode .language-switch button {
+    border-color: #fff;
+  }
+  
